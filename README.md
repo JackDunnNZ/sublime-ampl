@@ -33,7 +33,7 @@ AMPL is available from http://www.ampl.com/
 
 This package adds syntax highlighting for all built-in functions, as well as strings, numeric values (including `Infinity`), and function arguments.
 
-Comments are also highlighted. In AMPL, line comments are started by **#**, and block comments are delineated by `/\*\*` `\*\*/`.
+Comments are also highlighted. In AMPL, line comments are started by `#`, and block comments are delineated by `/*` `*/`.
 
 ## Support
 
