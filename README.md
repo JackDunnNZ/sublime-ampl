@@ -35,6 +35,8 @@ This package adds syntax highlighting for all built-in functions, as well as str
 
 Comments are also highlighted. In AMPL, line comments are started by `#`, and block comments are delineated by `/*` `*/`.
 
+To solve an AMPL model, `ctrl+B` (Build) will invoke AMPL on the `.run` file for the model. This can be done from any of the files for the model, provided that the `.run` script shares the same name as the current file e.g. building `example.mod` would invoke AMPL on `example.run`.
+
 ## Support
 
 This package is a port of the AMPL highlighting scheme for VIM. If there are any issues or suggestions to do with the highlighting, please let me know.
