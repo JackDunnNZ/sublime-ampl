@@ -32,12 +32,12 @@ On OS X, further configuration is needed in order for license files to be found 
         {
             "env":
             {
-                "ILOG_LICENSE_FILE": "path/to/access.lim"
+                "ILOG_LICENSE_FILE": "path/to/access.ilm"
             }
         }
     }
 
-Replace `path/to/access.lim` with the actual path to your ILOG license file.
+Replace `path/to/access.ilm` with the actual path to your ILOG license file.
 
 ## AMPL language
 

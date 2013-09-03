@@ -7,7 +7,7 @@
     {
         "env":
         {
-            "ILOG_LICENSE_FILE": "path/to/access.lim"
+            "ILOG_LICENSE_FILE": "path/to/access.ilm"
         }
     }
 
