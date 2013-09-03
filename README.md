@@ -25,7 +25,7 @@ You can access it through the menu in `Preferences` > `Browse Packages...`
 
 ### OS X
 
-On OS X, further configuration is needed in order for license files to be found (the environment variables need to be added manually to the sublime-build file) Create a file in `Packages/User` named `AMPL.sublime-build` with the following content:
+On OS X, further configuration is needed in order for license files to be found (the environment variables need to be added manually to the sublime-build file). Create a file in `Packages/User` named `AMPL.sublime-build` with the following content:
 
     {
         "osx":
