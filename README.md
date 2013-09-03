@@ -23,6 +23,22 @@ The "Packages" directory is located at:
 
 You can access it through the menu in `Preferences` > `Browse Packages...`
 
+### OS X
+
+On OS X, further configuration is needed in order for license files to be found (the environment variables need to be added manually to the sublime-build file) Create a file in `Packages/User` named `AMPL.sublime-build` with the following content:
+
+    {
+        "osx":
+        {
+            "env":
+            {
+                "ILOG_LICENSE_FILE": "path/to/access.lim"
+            }
+        }
+    }
+
+Replace `path/to/access.lim` with the actual path to your ILOG license file.
+
 ## AMPL language
 
 AMPL, an acronym for "A Mathematical Programming Language", is an algebraic modelling language for describing and solving high-complexity problems for large-scale mathematical computation (i.e. large-scale optimization and scheduling-type problems).
