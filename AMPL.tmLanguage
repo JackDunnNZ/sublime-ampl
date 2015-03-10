@@ -234,7 +234,7 @@
 		<key>suffix</key>
 		<dict>
 			<key>match</key>
-			<string>\b\w*.(lb|ub|lb0|lb1|lb2|lrc|ub0|ub1|ub2|urc|val|lbs|ubs|init|body|dinit|dual|init0|ldual|slack|udual|lslack|uslack|dinit0)|(&lt;&lt;|&gt;&gt;)</string>
+			<string>\b\w*\.(lb|ub|lb0|lb1|lb2|lrc|ub0|ub1|ub2|urc|val|lbs|ubs|init|body|dinit|dual|init0|ldual|slack|udual|lslack|uslack|dinit0)|(&lt;&lt;|&gt;&gt;)</string>
 			<key>name</key>
 			<string>keyword.ampl</string>
 		</dict>

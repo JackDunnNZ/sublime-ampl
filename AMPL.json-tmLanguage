@@ -70,7 +70,7 @@
     },
     "suffix":  {
       "name": "keyword.ampl",
-      "match": "\\b\\w*.(lb|ub|lb0|lb1|lb2|lrc|ub0|ub1|ub2|urc|val|lbs|ubs|init|body|dinit|dual|init0|ldual|slack|udual|lslack|uslack|dinit0)|(<<|>>)"
+      "match": "\\b\\w*\\.(lb|ub|lb0|lb1|lb2|lrc|ub0|ub1|ub2|urc|val|lbs|ubs|init|body|dinit|dual|init0|ldual|slack|udual|lslack|uslack|dinit0)|(<<|>>)"
     },
     "math":  {
       "name": "keyword.operator.ampl",
