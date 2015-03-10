@@ -74,7 +74,7 @@
     },
     "math":  {
       "name": "keyword.operator.ampl",
-      "match": "(?i)\\b(union|diff|difference|symdiff|sum|inter|intersect|intersection|cross|setof|by|less|mod|div|product|abs|acos|acosh|alias|asin|asinh|atan|atan2|atanh|ceil|cos|exp|floor|log|log10|max|min|precision|round|sin|sinh|sqrt|tan|tanh|trunc|Beta|Cauchy|Exponential|Gamma|Irand224|Normal|Poisson|Uniform|Uniform01)\\b"
+      "match": "(?i)[^\\.]\\b(union|diff|difference|symdiff|sum|inter|intersect|intersection|cross|setof|by|less|mod|div|product|abs|acos|acosh|alias|asin|asinh|atan|atan2|atanh|ceil|cos|exp|floor|log|log10|max|min|precision|round|sin|sinh|sqrt|tan|tanh|trunc|Beta|Cauchy|Exponential|Gamma|Irand224|Normal|Poisson|Uniform|Uniform01)\\b"
     },
     "operator":  {
       "name": "keyword.operator.ampl",

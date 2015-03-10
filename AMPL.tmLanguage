@@ -179,7 +179,7 @@
 		<key>math</key>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(union|diff|difference|symdiff|sum|inter|intersect|intersection|cross|setof|by|less|mod|div|product|abs|acos|acosh|alias|asin|asinh|atan|atan2|atanh|ceil|cos|exp|floor|log|log10|max|min|precision|round|sin|sinh|sqrt|tan|tanh|trunc|Beta|Cauchy|Exponential|Gamma|Irand224|Normal|Poisson|Uniform|Uniform01)\b</string>
+			<string>(?i)[^\.]\b(union|diff|difference|symdiff|sum|inter|intersect|intersection|cross|setof|by|less|mod|div|product|abs|acos|acosh|alias|asin|asinh|atan|atan2|atanh|ceil|cos|exp|floor|log|log10|max|min|precision|round|sin|sinh|sqrt|tan|tanh|trunc|Beta|Cauchy|Exponential|Gamma|Irand224|Normal|Poisson|Uniform|Uniform01)\b</string>
 			<key>name</key>
 			<string>keyword.operator.ampl</string>
 		</dict>
