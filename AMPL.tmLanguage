@@ -157,7 +157,7 @@
 		<key>keyword</key>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(minimize|maximize|objective|coeff|coef|cover|obj|default|from|to|to_come|net_in|net_out|dimen|dimension|integer|binary|set|param|var|node|ordered|circular|reversed|symbolic|arc|check|close|display|drop|include|print|printf|quit|reset|restore|solve|update|write|shell|model|data|option|let|solution|fix|unfix|end|function|pipe|format|if|then|else|and|or|exists|forall|in|not|within|while|repeat|for|subject to|subj to|s\.t\.|card|next|nextw|prev|prevw|first|last|member|ord|ord0)\b</string>
+			<string>(?i)\b((minimize|maximize|objective|coeff|coef|cover|obj|default|from|to|to_come|net_in|net_out|dimen|dimension|integer|binary|set|param|var|node|ordered|circular|reversed|symbolic|arc|check|close|display|drop|include|print|printf|quit|reset|restore|solve|update|write|shell|model|data|option|let|solution|fix|unfix|end|function|pipe|format|if|then|else|and|or|exists|forall|in|not|within|while|repeat|for|subject to|subj to|card|next|nextw|prev|prevw|first|last|member|ord|ord0)\b)|s\.t\.</string>
 			<key>name</key>
 			<string>keyword.control.ampl</string>
 		</dict>
